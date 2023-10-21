@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@media screen and (min-width: 1440px) {
+    
+header{
+    padding: 1%;
+    margin: 1%;
+    width: 95%;
+    font-family: 'Dancing Script', cursive;
+    font-size: xx-large;
+}
+footer{
+    padding: 1%;
+    margin: 1%;
+    width: 95%;
+}
+main{
+    margin-left: 0.2%;
+    margin-right: 0.2%;
+}
+.header{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+.logo{
+    margin-top: 1%;
+    display: block;
+    float: left;
+}
+.navbar{
+    width: 35%;
+}
+.navbar>li{
+    display: inline-flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    padding: 1%;
+    height: auto;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.subscribe{
+    background-color: #dd7b18;
+    border-radius: 5%;
+}
+.lien, .subscribe {
+
+    display: inline;
+}
+.mainarticle{
+    width: 30%;
+    margin-left: 1%;
+}
+.blocarticle1, .blocarticle2, .blocarticle3{
+    width: 95%;
+    margin: 1%;
+    margin-left: 2%;
+    height: auto;
+}
+
+.article1, .article2, .article3{
+    width: 95%;
+    height: auto;
+    padding: 1%;
+    margin: 1%;
+}
+.avatar{
+    width: 10%;
+}
+.avatar1, .avatar2, .avatar3{
+    width: 20%;
+    height: auto;
+    padding: 1%;
+    margin: 1%;   
+    display: inline;
+    float: right;
+}
+ 
+.blocav1, .blocav2, .blocav3{
+    height: auto;
+    padding: 1%;
+    margin: 1%;
+    margin-left: 2%;
+    width: 93%;
+}
+.grosbloc1, .grosbloc2, .grosbloc3{
+    padding: 3%;
+    margin: 1%;
+    margin-left: 3%;
+    width: 85%;
+    height: auto;
+}
+.grosblocarticle{
+    margin: 1%;
+    padding: 1%;
+    width: 95%;
+}
+.textearticle{
+    width: 65%;
+    float: right;
+    margin-bottom: 2%;
+    padding: 1%;
+}
+.textearticle1, .textearticle2, .textearticle3{
+    margin: 1%;
+    padding: 1%;   
+}
+.texteavatarsansphoto{
+    display: flex;
+    justify-content: flex-end;
+}
+p>.textedansarticle{
+    height: 150px;
+}
+.textedansarticle{
+    height: 75px;
+}
+.titredansarticle{
+    height: 75px;
+}
+h1{
+    font-family: 'Dancing Script', cursive;
+}
+p::first-letter{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+}
+p, h3{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 1px;
+}
+.article1{
+    display: grid;
+    grid-column: 1;
+    grid-row: 1 /3 ;
+
+}
+.article2{
+    display: grid;
+    grid-column: 2;
+    grid-row: 1 /3 ;
+}
+.article3{
+    display: grid;
+    grid-column: 3;
+    grid-row: 1 /3 ;
+}
+
+.textearticle1{
+    display: grid;
+    grid-column: 1;
+    grid-row: 4 / 5;
+}
+.textearticle2{
+    display: grid;
+    grid-column: 2;
+    grid-row: 4 / 5;
+}
+.textearticle3{
+    display: grid;
+    grid-column: 3;
+    grid-row: 4 / 5;
+}
+.blocav1{
+    display: grid;
+    grid-column: 1;
+    grid-row: 6;
+}
+.blocav2{
+    display: grid;
+    grid-column: 2;
+    grid-row: 6;
+}
+.blocav3{
+    display: grid;
+    grid-column: 3;
+    grid-row: 6;
+}
+}

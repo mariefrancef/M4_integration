@@ -1,0 +1,129 @@
+/* S_1 */
+div>.box{
+    color: rgb(247, 213, 213);
+  }
+
+  /* S_2 */
+  div>.box:first-child{
+    color: blueviolet;
+  }
+
+  /* S_3 */
+  ul>li{
+    color: rgb(46, 133, 145);
+  }
+
+  /* S_4 */
+  ul>li:last-child{
+    color: rgb(10, 77, 59);
+  }
+
+  /* S_5 */
+  bod
+  y>p{
+    color: rgb(128, 60, 18);
+  }
+
+  /* S_6 */
+  a[href^=https]{
+    color: rgb(118, 51, 195);
+  }
+
+  /* S_7 */
+  a[href$=".com"]{
+    background-color: blanchedalmond;
+  }
+  
+  /* S_8 */
+  a[href*=example]{
+    font-family: fantasy;
+  }
+
+  /* S_9 */
+  table>td{
+    background-color:rgb(66, 71, 69);
+  }
+
+  /* S_10 */
+  td:first-child{
+    background-color: rgb(248, 196, 196);
+  }
+
+  /* S_11 */
+  th:first-child{
+    background-color: rgb(250, 158, 158);
+  }
+
+  /* S_12 */
+  th:nth-child(2){
+    background-color: rgb(243, 106, 106);
+  }
+
+  /* S_13 */
+  #container>div{
+    background-color: rgb(237, 214, 214);
+  }
+
+  /* S_14 */
+  #container>.box{
+    font-style: italic;
+  }
+
+  /* S_15 */
+  #container>.box:not(:first-child){
+    background-color: rgb(247, 139, 139);
+  }
+
+  /* S_16 */
+  #container>.box:nth-child(n+3){
+    background-color: rgb(210, 67, 67);
+  }
+
+  /* S_17 */
+  #container>.box:nth-child(n+4){
+    background-color: rgb(208, 42, 42);
+  }
+
+  /* S_18 */
+  #container>.box:nth-child(n+5){
+    background-color: rgb(185, 5, 5);
+  }
+
+  /* S_19 */
+  #container>.box:nth-child(n+6){
+    background-color: rgb(132, 25, 25);
+  }
+
+  /* S_20 */
+  #container>.box:nth-child(n+7){
+    background-color: rgb(99, 22, 22);
+  }
+
+  /* S_21 */
+  #container>.box:nth-child(n+8){
+    background-color: rgb(73, 27, 27);
+  }
+
+  /* S_22 */
+  #container>.box:nth-child(n+9){
+    background-color: rgb(53, 20, 20);
+  }
+
+  /* S_23 */
+  #container>.box:nth-child(n+10){
+    background-color: rgb(26, 10, 10);
+  }
+  
+  /* S_24 */
+
+  /* S_25 */
+
+  /* S_26 */
+
+  /* S_27 */
+
+  /* S_28 */
+
+  /* S_29 */
+
+  /* S_30 */

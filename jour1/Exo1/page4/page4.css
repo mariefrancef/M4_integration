@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    margin-top: 2%;
+    margin-right: 10%;
+    margin-left: 10%;
+    max-width: 70%;
+    max-height: auto;
+}
+
+.img1{
+    width: 20%;
+    float: left;
+    display: block;
+    position: relative;
+}
+
+.img2{
+    width: 20%;
+    float: left;
+    display: block;
+    position: relative;
+}
+
+.img3{
+    width: 10%;
+}
+
+.img4{
+    width: 10%;
+}
+
+.img5{
+    width: 20%;
+}
+
+.img6{
+    width: 20%;
+}
+
+.img7{
+    width: auto;
+    height: 250px;
+}
